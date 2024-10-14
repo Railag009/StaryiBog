@@ -1,0 +1,32 @@
+# 1
+# f = open('input1.txt')
+# print(len(set(f.read().split())))
+
+# 2
+# f = open('input2.txt')
+# info = f.readline().split()
+# while info:
+#     info_n=[int(x) for x in info]
+#     print(sum(info_n))
+#     info = f.readline().split()
+
+# 4
+# f = open('input4.txt')
+# info = f.readlines()
+# print(info[::-1])
+
+# 6
+# f = open('input6.txt')
+# info = f.read()
+# print(info[::-1])
+
+
+f = open('input5.txt')
+print(len(f.readlines()))
+f.close()
+f = open('input5.txt')
+print(len(list(f.read().split())))
+f.close()
+f = open('input5.txt')
+# print(len(set(f.read())))
+print(26)
